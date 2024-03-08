@@ -1,0 +1,112 @@
+
+#landing-screen {
+    background-color: black;
+    /* height: 100vh; */
+    width: 99vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    gap: 80px;
+    padding-top: 100px;
+}
+
+
+
+#Card {
+    /* border: solid 2px red; */
+    /* background-color: black; */
+    color: white;
+    border: solid 2px white;
+    width: 80vw;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-position: right;
+    /* padding-top: 5%; */
+
+
+
+
+}
+
+#card-inner {
+    /* background-image: url("https://www.superherohype.com/wp-content/uploads/sites/4/2018/05/bright.jpg"); */
+
+
+    /* border: solid 2px red; */
+
+    padding: 2% 10%;
+
+    /* height: 40vh; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+
+}
+
+#para-one {
+    display: flex;
+    /* border: solid 2px red; */
+}
+
+img {
+    height: 150px;
+    width: 100px;
+}
+
+#para-one-right {
+    width: 100%;
+    padding-left: 2%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ 
+
+#para-one-right-below {
+    /* border: solid 2px red; */
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+#para-one-right-below .pOne {
+    border: solid 0.2px rgba(0,0,0,0.3);
+    padding: 0.7%;
+
+}
+
+#para-one-right-top .pOne {
+    font-size: 32px;
+    line-height: 50px;
+}
+
+#para-one-right-top .pTwo {
+    color: rgba(0, 110, 150, 0.8);
+}
+
+#para-three {
+    display: flex;
+    float: left;
+    gap: 4%;
+    
+}
+
+#para-three i {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+}
+
+i:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
